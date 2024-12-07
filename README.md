@@ -40,7 +40,9 @@ Figure 2 : Modèle UML
 ### Implémentation
 À partir de ce point de départ, implémenter ce diagramme UML de manière à faire passer les tests unitaires inclus.
 
-Les tests unitaires fournis ne doivent pas être modifiés. Dans le point de départ fourni, vous pouvez ajouter classes, méthodes ou propriétés que vous trouverez nécessaire. Dans ce cas, ils doivent être également reportés dans le diagramme de classe fourni dans .doc. Vous pouvez également ajouter d’autres classes de test si nécessaire.
+Les tests unitaires fournis ne doivent pas être modifiés. Dans le point de départ fourni, 
+vous pouvez ajouter classes, méthodes ou propriétés que vous trouverez nécessaire. 
+Dans ce cas, ils doivent être également reportés dans le diagramme de classe [fourni](./doc) dans le répertoire `doc` (sauf getters et setters). Vous pouvez également ajouter d’autres classes de test si nécessaire.
 
 #### Éléments de solution
 
@@ -73,5 +75,5 @@ Un autre ingénieur propose une solution alternative en UML :
 
 _Figure 3 : autre modèle UML_
 
-Comparer ces deux solutions en argumentant leurs avantages ou inconvénients respectifs. Ecrire vos réponses dans ./doc/questionUML.txt.
+Comparer ces deux solutions en argumentant leurs avantages ou inconvénients respectifs. Ecrire vos réponses dans [./doc/questionUML.txt](./doc/questionUML.txt).
 

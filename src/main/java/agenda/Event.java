@@ -1,6 +1,7 @@
 package agenda;
 
 import java.time.*;
+import java.time.temporal.ChronoUnit;
 
 public class Event {
 
@@ -31,6 +32,26 @@ public class Event {
         this.myTitle = title;
         this.myStart = start;
         this.myDuration = duration;
+    }
+
+    public void setRepetition(ChronoUnit frequency) {
+        // TODO : implémenter cette méthode
+        throw new UnsupportedOperationException("Pas encore implémenté");
+    }
+
+    public void addException(LocalDate date) {
+        // TODO : implémenter cette méthode
+        throw new UnsupportedOperationException("Pas encore implémenté");
+    }
+
+    public void setTermination(LocalDate terminationInclusive) {
+        // TODO : implémenter cette méthode
+        throw new UnsupportedOperationException("Pas encore implémenté");
+    }
+
+    public void setTermination(long numberOfOccurrences) {
+        // TODO : implémenter cette méthode
+        throw new UnsupportedOperationException("Pas encore implémenté");
     }
 
     /**
