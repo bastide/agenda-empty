@@ -27,7 +27,9 @@ _Figure 1 : les événements peuvent s'étendre sur plusieurs jours_
 On doit pouvoir :
 
 - Ajouter de nouveaux événements à l’agenda,
-- Trouver tous les événements qui se produisent à une date donnée. Attention, on doit prendre en compte le fait qu’un événement peut s’étendre sur plusieurs jours. Ainsi, dans l’exemple de la Figure 1, les événements Evénement1, Evénement2 et Evénement5 se produisent le mercredi 6. On doit également prendre en compte les événements répétitifs dans ce calcul.
+- Trouver tous les événements qui se produisent à une date donnée. Attention, 
+on doit prendre en compte le fait qu’un événement peut s’étendre sur 
+plusieurs jours. Ainsi, dans l’exemple de la Figure 1, les événements Event1, Event3 et Event4 se produisent le mardi 3. On doit également prendre en compte les événements répétitifs dans ce calcul.
 
 Ces spécifications donnent lieu au diagramme de classe UML illustré en Figure 2.
 
@@ -62,7 +64,7 @@ Duration m = Duration.ofMinutes(120);
 
 // Ajouter des durées à une date
 
-LocalDate d2 = d1.minus(1, ChronoUnit.WEEKS)
+LocalDate d2 = d1.minus(1, ChronoUnit.WEEKS);
 
 // Le nombre de jours entre deux dates
 
