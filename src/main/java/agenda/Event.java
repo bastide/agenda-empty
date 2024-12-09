@@ -54,6 +54,16 @@ public class Event {
         throw new UnsupportedOperationException("Pas encore implémenté");
     }
 
+    public int getNumberOfOccurrences() {
+        // TODO : implémenter cette méthode
+        throw new UnsupportedOperationException("Pas encore implémenté");
+    }
+
+    public LocalDate getTerminationDate() {
+        // TODO : implémenter cette méthode
+        throw new UnsupportedOperationException("Pas encore implémenté");
+    }
+
     /**
      * Tests if an event occurs on a given day
      *
