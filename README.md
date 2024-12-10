@@ -51,23 +51,18 @@ Dans ce cas, ils doivent être également reportés dans le diagramme de classe 
 Cet exercice fait une utilisation intensive des classes du package [java.time](https://docs.oracle.com/javase/8/docs/api/java/time/package-frame.html) pour représenter et manipuler les données temporelles (dates, durées…). Quelques exemples de code :
 ```java
 // Une date, ex : 1° novembre 2020
-
 LocalDate d1 = LocalDate.of(2020, 11, 1);
 
 // Date et heure, 1° novembre 2020, 22:30
-
 LocalDateTime dt = LocalDateTime.of(2020, 11, 1, 22, 30);
 
 // Une durée : 120 minutes
-
 Duration m = Duration.ofMinutes(120);
 
-// Ajouter des durées à une date
-
+// Ajouter (plus) ou soustraire (minus) des durées à une date
 LocalDate d2 = d1.minus(1, ChronoUnit.WEEKS);
 
 // Le nombre de jours entre deux dates
-
 long j = ChronoUnit.DAYS.between(d1, d2); // -7 jours
 ```
 ### UML

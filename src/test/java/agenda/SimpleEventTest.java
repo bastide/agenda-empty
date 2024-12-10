@@ -13,6 +13,7 @@ import static org.junit.jupiter.api.Assertions.assertTrue;
  * Teste des événements simples, sans répétition
  */
 public class SimpleEventTest {
+    public static final String SIMPLE_EVENT = "Simple event";
     // November 1st, 2020
     LocalDate nov_1_2020 = LocalDate.of(2020, 11, 1);
 
@@ -27,7 +28,7 @@ public class SimpleEventTest {
 
     // Un événement simple
     // November 1st, 2020, 22:30, 89 minutes
-    Event simple = new Event("Simple event", nov_1_2020_22_30, min_89);
+    Event simple = new Event(SIMPLE_EVENT, nov_1_2020_22_30, min_89);
     
     // Un événement qui chevauche 2 jours
     // November 1st, 2020, 22:30, 120 minutes
@@ -52,7 +53,7 @@ public class SimpleEventTest {
     }
     @Test
     public void toStringShowsEventTitle() {
-        assertTrue(simple.toString().contains("Simple event"),
+        assertTrue(simple.toString().contains(SIMPLE_EVENT),
             "toString() doit montrer le titre de l'événement");
     }
     
