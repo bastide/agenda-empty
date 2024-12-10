@@ -97,6 +97,8 @@ public class Event {
         return myDuration;
     }
 
-   
-    
+    @Override
+    public String toString() {
+        return "Event{title='%s', start=%s, duration=%s}".formatted(myTitle, myStart, myDuration);
+    }
 }
