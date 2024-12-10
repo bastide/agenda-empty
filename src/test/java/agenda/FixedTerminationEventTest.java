@@ -90,8 +90,8 @@ public class FixedTerminationEventTest {
 
     @Test
     public void eventIsNotInExceptionDays() {
-        fixedTermination.addException(nov_1_2020.plus(2, ChronoUnit.WEEKS)); // ne se produit pas à W+2
-        fixedTermination.addException(nov_1_2020.plus(4, ChronoUnit.WEEKS)); // ne se produit pas à W+4
+        fixedTermination.addException(nov_1_2020.plusWeeks(2)); // ne se produit pas à W+2
+        fixedTermination.addException(nov_1_2020.plusWeeks(4)); // ne se produit pas à W+4
         assertTrue(fixedTermination.isInDay(nov_1_2020.plusWeeks(1)),
             "Cet événement se produit toutes les semaines");
         assertFalse(fixedTermination.isInDay(nov_1_2020.plusWeeks(2)),

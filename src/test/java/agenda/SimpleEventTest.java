@@ -47,8 +47,8 @@ public class SimpleEventTest {
 
     @Test
     public void overlappingEventIsInDayAfter() {
-        assertFalse(simple.isInDay(nov_1_2020.plus(1, ChronoUnit.DAYS)),      "Cet événement ne déborde pas sur le jour suivant");
-        assertTrue(overlapping.isInDay(nov_1_2020.plus(1, ChronoUnit.DAYS)),  "Cet événement déborde sur le jour suivant");
+        assertFalse(simple.isInDay(nov_1_2020.plusDays(1)),      "Cet événement ne déborde pas sur le jour suivant");
+        assertTrue(overlapping.isInDay(nov_1_2020.plusDays(1)),  "Cet événement déborde sur le jour suivant");
     }
     @Test
     public void toStringShowsEventTitle() {
