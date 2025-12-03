@@ -46,6 +46,32 @@ Les tests unitaires fournis ne doivent pas être modifiés. Dans le point de dé
 vous pouvez ajouter classes, méthodes ou propriétés que vous trouverez nécessaire. 
 Dans ce cas, ils doivent être également reportés dans le diagramme de classe [fourni](./doc) dans le répertoire `doc` (sauf getters et setters). Vous pouvez également ajouter d’autres classes de test si nécessaire.
 
+### Questions complémentaires
+Implémenter et tester les deux méthodes suivantes dans la classe Agenda
+
+```java
+
+    /**
+     * Trouver les événements de l'agenda en fonction de leur titre
+     * @param title le titre à rechercher
+     * @return les événements qui ont le même titre
+     */
+    public List<Event> findByTitle(String title) {
+        // TODO : implémenter cette méthode
+        throw new UnsupportedOperationException("Pas encore implémenté");        
+    }
+    
+    /**
+     * Déterminer s’il y a de la place dans l'agenda pour un événement (aucun autre événement au même moment)
+     * @param e L'événement à tester (on se limitera aux événements sans répétition)
+     * @return vrai s’il y a de la place dans l'agenda pour cet événement
+     */
+    public boolean isFreeFor(Event e) {
+        // TODO : implémenter cette méthode
+        throw new UnsupportedOperationException("Pas encore implémenté");        
+    }
+```java
+
 #### Éléments de solution
 
 Cet exercice fait une utilisation intensive des classes du package [java.time](https://docs.oracle.com/javase/8/docs/api/java/time/package-frame.html) pour représenter et manipuler les données temporelles (dates, durées…). Quelques exemples de code :

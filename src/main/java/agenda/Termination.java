@@ -18,7 +18,7 @@ public class Termination {
 
 
     /**
-     * Constructs a fixed termination event ending at a given date
+     * Constructs a  termination at a given date
      * @param start the start time of this event
      * @param frequency one of :
      * <UL>
