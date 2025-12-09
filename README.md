@@ -50,7 +50,6 @@ Dans ce cas, ils doivent être également reportés dans le diagramme de classe 
 Implémenter et tester les deux méthodes suivantes dans la classe Agenda
 
 ```java
-
     /**
      * Trouver les événements de l'agenda en fonction de leur titre
      * @param title le titre à rechercher
@@ -70,7 +69,7 @@ Implémenter et tester les deux méthodes suivantes dans la classe Agenda
         // TODO : implémenter cette méthode
         throw new UnsupportedOperationException("Pas encore implémenté");        
     }
-```java
+```
 
 #### Éléments de solution
 
