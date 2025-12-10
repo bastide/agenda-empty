@@ -44,7 +44,7 @@ Figure 2 : Modèle UML
 
 Les tests unitaires fournis ne doivent pas être modifiés. Dans le point de départ fourni, 
 vous pouvez ajouter classes, méthodes ou propriétés que vous trouverez nécessaire. 
-Dans ce cas, ils doivent être également reportés dans le diagramme de classe [fourni](./doc) dans le répertoire `doc` (sauf getters et setters). Vous pouvez également ajouter d’autres classes de test si nécessaire.
+Dans ce cas, ils doivent être également reportés dans le diagramme de classe [fourni](./doc) dans le répertoire `doc` (sauf getters et setters). Vous devez arriver à une couverture de test de 100 % et vous pouvez également ajouter d’autres classes de test si nécessaire.
 
 ### Questions complémentaires
 Implémenter et tester les deux méthodes suivantes dans la classe Agenda
